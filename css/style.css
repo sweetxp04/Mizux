@@ -1,0 +1,58 @@
+.navbar {
+  box-shadow: 2px 2px 5px #ffc107;
+  background: #fff;
+  opacity: 0.9; }
+  .navbar span {
+    color: #ffc107;
+    font-weight: 500; }
+  .navbar .nav-item {
+    font-size: 1.3rem;
+    padding-right: 1.5rem; }
+    .navbar .nav-item .nav-link {
+      color: #252525; }
+  .navbar button:hover {
+    background-color: #7e6723;
+    border: none; }
+
+.navbar .nav-item .nav-link:hover {
+  color: #ffc107; }
+
+#home-section {
+  background-image: url("../img/hill.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px; }
+
+#subscribe {
+  background-color: #252525; }
+
+#cards .card {
+  border: 1px solid #ffc107;
+  border-radius: 0px; }
+
+#cards .card-color {
+  background-color: #7e6723; }
+
+#authors .author-title h2 {
+  color: #ffc107; }
+
+#authors .card {
+  margin-bottom: 50px; }
+
+#authors .card-body:hover {
+  background-color: #ffc107;
+  color: #fff; }
+  #authors .card-body:hover .fa {
+    color: #fff; }
+
+#authors img {
+  margin-top: -60px; }
+
+#authors .fa {
+  font-size: 25px;
+  color: #ffc107;
+  padding: 5px 10px; }
+
+@media (max-width: 576px) {
+  #home-section h1 {
+    font-size: 40px; } }
